@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<localization>
+	<fonts defaultFont="small_white" defaultStyle="default">
+
+		<!-- 
+		Font styles
+			Optional attributes: 
+				fontName="Arial" 
+				fontScale="1" 
+				align="center" 
+				offsetX="0" 
+				offsetY="0" 
+				transform="uppercase"
+		-->
+
+		<style name="default" fontName="lobster_white_shadow" align="center"></style>
+		<style name="score" fontName="lobster_white_shadow" align="left"></style>
+		<style name="title" fontName="lobster_white" align="center" offsetY="0" transform="uppercase"></style>
+		<style name="loading" fontName="lobster_black" align="center" offsetY="0" letterSpacing="2" transform="uppercase"></style>
+
+		<style name="hud_callout" fontName="callout" fontScale="0.2" letterSpacing="8" transform="uppercase" ></style>
+		<style name="hud_score" fontName="score" align="center"></style>
+		<style name="score" fontName="score" align="center"></style>
+		<style name="hud_score_blue" fontName="score_blue" align="center"></style>
+		<style name="hud_score_purple" fontName="score_purple" align="center"></style>
+		<style name="hud_score_orange" fontName="score_orange" align="center"></style>
+		<style name="hud_target" fontName="lobster_small_black" align="left"></style>
+		<style name="lobster_small_black" fontName="lobster_small_black" align="center"></style>
+
+		<style name="buttons" fontName="small_white" align="center" offsetY="-5" letterSpacing="2" transform="uppercase"></style>
+		<style name="win_score" fontName="lobster_white" align="center" transform="uppercase"></style>
+		<style name="numbers" fontName="number_blue" align="center" transform="uppercase"></style>
+		<style name="player_name" fontName="lobster_small_black" align="center"></style>
+		<style name="stats" fontName="small_white" align="center" transform="uppercase"></style>
+		<style name="info" fontName="lobster_white_shadow" align="left"></style>
+		<style name="info_sm" fontName="small_purple" align="left" transform="uppercase"></style>
+		<style name="info_team" fontName="lobster_small_black" align="left"></style>
+
+		<style name="lobster_white" fontName="lobster_white" align="center"></style>
+		<style name="lobster_blue" fontName="lobster_blue" align="center"></style>
+		<style name="lobster_white_shadow" fontName="lobster_white_shadow" align="center"></style>
+		<style name="small_white" fontName="small_white" align="center" transform="uppercase"></style>
+		<style name="small_purple" fontName="small_purple" align="center" transform="uppercase"></style>
+
+	</fonts>
+
+	<strings>
+
+		<!--
+		Optional attributes to customize each string:
+			fontStyle="title"
+
+			or to use font-style attributes directly:
+			fontName="Arial" fontScale="1" offsetX="0" offsetY="0"
+		-->
+
+		<!-- menus -->
+
+		<!-- Title -->
+		<string id="PLAY_TITLE" fontStyle="buttons">CLICK ANYWHERE TO PLAY</string>
+		<string id="PLAY_TOUCH" fontStyle="buttons">TAP ANYWHERE TO PLAY</string>
+		<string id="ENTER_CODE" fontStyle="buttons">ENTER CODE</string>
+
+		<!-- Story -->
+		<string id="STORY_TITLE">STORY</string>
+		<string id="STORY_TEXT_1">STORY TEXT 1</string>
+
+		<!-- Character Selection -->
+		<string id="CHARACTER_TITLE">Select Player</string>
+
+		<!-- Level Selection -->
+		<string id="LEVEL_TITLE">Select Level</string>
+		<string id="LEVEL">Level</string>
+
+		<!-- CALLOUTS -->
+		<string id="SCORE">{{p}}</string>
+		<string id="MULT_1" fontStyle="hud_callout">*1</string>
+		<string id="MULT_2" fontStyle="hud_callout">*2</string>
+		<string id="MULT_3" fontStyle="hud_callout">*3</string>
+		<string id="CALLOUT_PERFECT" fontStyle="hud_callout">PERFECT</string>
+		<string id="CALLOUT_GOOD" fontStyle="hud_callout">GOOD</string>
+		<string id="CALLOUT_BAD" fontStyle="hud_callout">OK</string>
+		<string id="CALLOUT_READY" fontStyle="hud_callout">PLAY BALL!</string>
+		<string id="CALLOUT_READY_SLIME" fontStyle="hud_callout">SLIME BALL!</string>
+		<string id="CALLOUT_TARGET_SCORE" fontStyle="hud_callout">GET</string>
+		<string id="CALLOUT_BALL" fontStyle="hud_callout"> </string>
+		<string id="CALLOUT_CATCHED" fontStyle="hud_callout">OUT!</string>
+		<string id="CALLOUT_MISSED" fontStyle="hud_callout">STRIKE!</string>
+		<string id="CALLOUT_HOMERUN" fontStyle="hud_callout">HOMERUN!</string>
+		<string id="CALLOUT_WELL" fontStyle="hud_callout">IT'S OUTTA</string>
+		<string id="CALLOUT_DONE" fontStyle="hud_callout">HERE!</string>
+		<string id="CALLOUT_END_DERBY" fontStyle="hud_callout">TIME UP!</string>
+		<string id="CALLOUT_END_LEVEL" fontStyle="hud_callout">GOOD GAME!</string>
+		<string id="CALLOUT_NEW_BALL" fontStyle="hud_callout">NEW BALL!</string>
+
+		<!-- Preview -->
+		<string id="PREVIEW_HIGH_SCORE">HIGH SCORE</string>
+		<string id="VS">VS.</string>
+		<string id="LOADING">Loading</string>
+		
+		<!-- Derby Preview -->
+		<string id="DERBY_TITLE">Derby Mode</string>
+		<string id="DERBY_TIME_LIMIT">TIME LIMIT</string>
+		<string id="DERBY_INFINITE_BALLS">INFINITE BALLS</string>
+		<string id="DERBY_EXPLODING_BALL">EXPLODING BALL</string>
+		<string id="GOOD_GAME">GOOD GAME!</string>
+
+		<!-- Unlock -->
+		<string id="UNLOCK_CHARACTER">NEW CHARACTER</string>
+		<string id="UNLOCK_UNLOCK">UNLOCKED!</string>
+		<string id="UNLOCK_GO">GO!</string>
+
+		<!-- Game code -->
+		<string id="CODE_SUBMIT">SUBMIT</string>
+		<string id="CODE_RESET">RESET</string>
+		<string id="PROMO_POPUP_TITLE">Promo Code</string>
+		<string id="TYPE_HERE">TYPE HERE</string>
+		<string id="TEXT_ERROR_CODE">WRONG CODE</string>
+		<string id="TEXT_UNLOCKED">UNLOCKED !</string>
+
+		<!-- CODES -->
+		<string id="CODE_UNLOCKALL">UNLOCKALL</string>
+		<string id="TEXT_UNLOCKALL">UNLOCK EVERYTHING!</string>
+		<string id="CODE_LOCKALL">LOCKALL</string>
+		<string id="TEXT_LOCKALL">LOCK CHARACTERS AND LEVELS</string>
+		<string id="CODE_FULLHOUSE">FULLHOUSE</string>
+		<string id="TEXT_FULLHOUSE">UNLOCK ALL CHARACTERS</string>
+		<string id="CODE_HOUSEKEYS">HOUSEKEYS</string>
+		<string id="TEXT_HOUSEKEYS">UNLOCK ALL LEVELS</string>
+		<string id="CODE_SUPERBALL">SUPERBALL</string>
+		<string id="TEXT_SUPERBALL">BALL SUPER BOUNCY</string>
+		<string id="CODE_DREAMFIELD">DREAMFIELD</string>
+		<string id="TEXT_DREAMFIELD">GHOST CHARACTERS</string>
+		<string id="CODE_MAXPOWER">MAXPOWER</string>
+		<string id="TEXT_MAXPOWER">SUPER ALWAYS AVAILABLE</string>
+		<string id="CODE_BEEFCAKE">BEEFCAKE</string>
+		<string id="TEXT_BEEFCAKE">ALWAYS THE STRONGEST!</string>
+		<string id="CODE_HARDCORE">HARDCORE</string>
+		<string id="TEXT_HARDCORE">MORE POINTS NEEDED FOR BASES</string>
+		<string id="CODE_MAKEITRAIN">MAKEITRAIN</string>
+		<string id="TEXT_MAKEITRAIN">MANY MORE SPLIT BALLS!</string>
+		<string id="CODE_THATSNOMOON">THATSNOMOON</string>
+		<string id="TEXT_THATSNOMOON">MOON TRIPLETS</string>
+		<string id="CODE_MAGNIFY">MAGNIFY</string>
+		<string id="TEXT_MAGNIFY">POWER OF MAGNETISM!</string>
+		<string id="CODE_JULYFOURTH">JULYFOURTH</string>
+		<string id="TEXT_JULYFOURTH">FIREWORKS!!!</string>
+		<string id="CODE_NIGHTLIFE">NIGHTLIFE</string>
+		<string id="TEXT_NIGHTLIFE">PLAYING AT NIGHT</string>
+		<string id="CODE_PINBALL">PINBALL</string>
+		<string id="TEXT_PINBALL">PINBALL LEVEL</string>
+		<string id="CODE_GOJIRA">GOJIRA</string>
+		<string id="TEXT_GOJIRA">BACK TO A PREHISTORIC ERA</string>
+		<string id="CODE_MARSATTACK">MARSATTACK</string>
+		<string id="TEXT_MARSATTACK">INVASION!</string>
+
+		<!-- TIPS & CODES -->
+		<string id="PREVIEW_TIP_1">GRAB BAT BOOSTERS IN THE RIGHT ORDER</string>
+		<string id="PREVIEW_TIP_2">SUPERMOVE HELPS TO GRAB DIFFICULT STARS</string>
+		<string id="PREVIEW_TIP_3">YOU CAN TWEAK YOUR HITTING STRENGTH</string>
+		<string id="PREVIEW_TIP_4">SHUFFLE AIMING ORDER TO SCORE HIGHER</string>
+		<string id="PREVIEW_TIP_5">GRAB BALL PICKUPS TO GAIN EXTRA BALLS</string>
+		<string id="PREVIEW_TIP_6">TRY AIMING FOR BAT BOOSTERS FIRST</string>
+		<string id="PREVIEW_TIP_7">PERFECT HITS EARN MORE POINTS</string>
+		<string id="PREVIEW_TIP_8">BIG STARS FILLUP YOUR SUPERMOVE FASTER</string>
+		<string id="PREVIEW_TIP_9">NEVER SPIT AGAINST THE WIND</string>
+		<string id="PREVIEW_TIP_10">DON'T PEE IN THE POOL. ANY POOL.</string>
+		<string id="PREVIEW_TIP_11">DID YOU GET ALL 14 CODES?</string>
+
+		<!-- Hud -->
+		<string id="SKIP">SKIP</string>
+		<string id="HUD_TARGET" fontStyle="hud_target">Target</string>
+
+		<!-- Pause -->
+		<string id="PAUSE_TITLE">PAUSE</string>
+		<string id="QUIT_TEXT"><![CDATA[ARE YOU SURE YOU
+WANT TO QUIT?]]></string>
+		<string id="YES">YES</string>
+		<string id="NO">NO</string>
+
+		<!-- Win -->
+		<string id="WIN_TITLE">Good Game!</string>
+		<string id="WIN_MEH">OK</string>
+		<string id="WIN_GOOD">GOOD.</string>
+		<string id="WIN_PERFECT">PERFECT!</string>
+		<string id="WIN_SCORE">SCORE</string>
+		<string id="WIN_LEVEL">Level {{l}}</string>
+		<string id="WIN_HIGH_SCORE">HIGH SCORE {{n}}</string>
+
+		<!-- Fail -->
+		<string id="FAIL_TITLE">Try Again!</string>
+		<string id="FAIL_SUBTITLE">YOUR SCORE!</string>
+		<string id="TARGET">TARGET</string>
+
+		<!-- End -->
+		<string id="AMAZING">AMAZING!</string>
+		<string id="END_STORY">YOU'VE WON THE NICK BASEBALL TROPHY!</string>
+
+		<!-- Modes -->
+		<string id="MODE_TITLE">Select Mode</string>
+		<string id="MODE_TOURNAMENT">Tournament</string>
+		<string id="MODE_DERBY">Derby Mode</string>
+		<string id="MODE_RANDOM">Random Level</string>
+		<string id="MODE_STATS">Stats</string>
+
+		<!-- Stats -->
+		<string id="STATS_TITLE">Stats</string>
+		<string id="STATS_STRIKES">STRIKES</string>
+		<string id="STATS_MEH">OK</string>
+		<string id="STATS_GOOD">GOOD</string>
+		<string id="STATS_PERFECT">PERFECT</string>
+		<string id="STATS_DERBY">DERBY SCORE</string>
+		<string id="STATS_HOMERUNS">HOME RUNS</string>
+
+		<!-- BUTTONS -->
+		<string id="PLAY" fontStyle="buttons">PLAY</string>
+		<string id="QUIT" fontStyle="buttons">QUIT</string>
+		<string id="EDIT" fontStyle="buttons">EDIT</string>
+		<string id="RESET" fontStyle="buttons">RESET</string>
+		<string id="ENTER_CODE" fontStyle="buttons">ENTER CODE</string>
+
+		<!-- STATS -->
+		<string id="SPEED">Speed</string>
+		<string id="ENDURANCE">Endurance</string>
+		<string id="POWER">Power</string>
+
+		<!-- TUTORIAL -->
+		<string id="TUT_AIM">Aim!</string>
+		<string id="TUT_DRAG">Drag!</string>
+		<string id="TUT_RELEASE">Let Go!</string>
+		<string id="TUT_WEAK">WEAK</string>
+		<string id="TUT_MEDIUM">MEDIUM</string>
+		<string id="TUT_HARD">HARD</string>
+		<string id="TUT_AIMING">Aiming</string>
+		<string id="TUT_AIMING2">Aim! Drag! and Let Go!</string>
+		<string id="TUT_SWING">Swing!</string>
+		<string id="TUT_SWING2">Tap for a perfect swing</string>
+		<string id="HTP_SWING_SUB"><![CDATA[TAP NOW FOR A
+PERFECT SWING]]></string>
+		<string id="TUT_STARS">Stars</string>
+		<string id="TUT_STARS2">GRABS STARS TO RAISE YOUR SCORE AND FILL UP YOUR SUPERMOVE</string>
+		<string id="TUT_SM">Super move</string>
+		<string id="TUT_SM_SUB"><![CDATA[SUPERMOVE IS FULL 
+AND WILL BE USED FOR 
+YOUR NEXT HIT]]></string>
+		<string id="TUT_PICKUP">Pickups</string>
+		<string id="TUT_PICKUP1"><![CDATA[NEW
+BALL]]></string>
+		<string id="TUT_PICKUP2"><![CDATA[-1
+STRIKE]]></string>
+		<string id="TUT_PICKUP3"><![CDATA[SUPER
+MOVE]]></string>
+		<string id="TUT_PICKUP4"><![CDATA[POWER]]></string>
+		<string id="TUT_MISS">Miss</string>
+		<string id="TUT_MISS2">MISSING BALL GETS YOU A STRIKE</string>
+		<string id="TUT_STRIKES">Strikes</string>
+		<string id="TUT_STRIKES2">3 STRIKES YOU'RE OUT</string>
+		<string id="TUT_BREAKABLES">Break</string>
+		<string id="TUT_BREAKABLES2"><![CDATA[BREAK WOODEN OBSTACLES
+IF BALL IS FAST]]></string>
+		<string id="TUT_CATCHERS">FIELDER</string>
+		<string id="TUT_CATCHERS2">DON'T HIT FIELDERS</string>
+		<string id="TUT_HOMERUN">Homerun</string>
+		<string id="TUT_HOMERUN2">HOMERUN SCORE HIGH POINTS</string>
+		<string id="TUT_POWER">Go Far!</string>
+		<string id="TUT_POWER2">RAISE YOUR POWER TO HIT THE BALL FARTHER</string>
+		<string id="TUT_POWER3">Power</string>
+		
+		<!-- character names -->
+		<string id="raph">Raph</string>
+		<string id="leo">Leo</string>
+		<string id="mike">Mikey</string>
+		<string id="donnie">Donnie</string>
+		<string id="buhdeuce">Buhdeuce</string>
+		<string id="swaysway">Sway Sway</string>
+		<string id="spongebob">SpongeBob</string>
+		<string id="patrick">Patrick</string>
+		<string id="sanjay">Sanjay</string>
+		<string id="craig">Craig</string>
+		<string id="fee">Fee</string>
+		<string id="foo">Foo</string>
+		<string id="korra">Korra</string>
+		<string id="asami">Asami</string>
+
+		<!-- character unlock -->
+		<string id="mike_UNLOCK"><![CDATA[PLAY {{n}} LEVELS WITH LEO]]></string>
+		<string id="raph_UNLOCK"><![CDATA[PLAY {{n}} LEVELS WITH DONNIE]]></string>
+		<string id="patrick_UNLOCK"><![CDATA[PLAY {{n}} LEVELS WITH SPONGEBOB]]></string>
+		<string id="craig_UNLOCK"><![CDATA[PLAY {{n}} LEVELS WITH SANJAY]]></string>
+		<string id="swaysway_UNLOCK"><![CDATA[PLAY {{n}} LEVELS WITH BUHDEUCE]]></string>
+		<string id="asami_UNLOCK"><![CDATA[PLAY {{n}} LEVELS WITH KORRA]]></string>
+		<string id="foo_UNLOCK"><![CDATA[PLAY {{n}} LEVELS WITH FEE]]></string>
+
+		<!-- powerups -->
+		<string id="raph_SM"><![CDATA[SURE U CAN]]></string>
+		<string id="leo_SM"><![CDATA[SLICE 'N' DICE]]></string>
+		<string id="mike_SM"><![CDATA[KITTY POWER]]></string>
+		<string id="donnie_SM"><![CDATA[GARBAGE SHOT]]></string>
+		<string id="spongebob_SM"><![CDATA[MULTI BAT]]></string>
+		<string id="patrick_SM"><![CDATA[WRESTLING TIME]]></string>
+		<string id="sanjay_SM"><![CDATA[ONE MUSCLE]]></string>
+		<string id="craig_SM"><![CDATA[THIS BLOWS]]></string>
+		<string id="fee_SM"><![CDATA[EAT THIS]]></string>
+		<string id="foo_SM"><![CDATA[SPIT BALL]]></string>
+		<string id="korra_SM"><![CDATA[ELEMENTAL AURA]]></string>
+		<string id="asami_SM"><![CDATA[AMPED UP AURA]]></string>
+		<string id="buhdeuce_SM"><![CDATA[BOOTY HIT]]></string>
+		<string id="swaysway_SM"><![CDATA[DUCK SWINGING]]></string>
+
+		<string id="MOON"><![CDATA[BRING ME TO THE MOON]]></string>
+		<string id="ROCKET"><![CDATA[LIGHT UP THAT SKY]]></string>
+		<string id="MULTI"><![CDATA[THE MORE THE MERRIER]]></string>
+		<string id="MAGNET"><![CDATA[COME TO ME MY PRECIOUS]]></string>
+
+		<!-- TEAMS -->
+		<string id="team_tmnt"><![CDATA[Nunchuck
+Allstars]]></string>
+		<string id="team_bw"><![CDATA[Quazy Bread
+Heads]]></string>
+		<string id="team_hb"><![CDATA[Treebark
+Trouble]]></string>
+		<string id="team_sb"><![CDATA[Bikini Bottom
+Barnacles]]></string>
+		<string id="team_sc"><![CDATA[Hot Wings
+Warriors]]></string>
+		<string id="team_korra"><![CDATA[Republic City
+Rebels]]></string>
+	</strings>
+</localization>

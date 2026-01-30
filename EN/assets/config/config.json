@@ -1,0 +1,30 @@
+{
+  "version": "1.0.2.840.08192015.1838.cccda89.dirty",
+  "nick": {
+    "url": "http://www.nick.com/games/nickelodeon-baseball-stars.html"
+  },
+  "canada_tracking": {
+    "enabled": false
+  },
+  "delta_dna": {
+    "allowLiveKey": false,
+    "country": "US",
+    "key_dev": "98170211612214027432285540514355",
+    "key_live": "98186724098773759628062813114355",
+    "collect": "http://collect4979bsbll.deltadna.net/collect/api",
+    "engage": "http://engage4979bsbll.deltadna.net",
+    "platforms": {
+      "web": {
+        "desktop": "NICKWEB_DESKTOP",
+        "desktop_flash": "NICKWEB_DESKTOP",
+        "mobile": "NICKWEB_MOBILE",
+        "tablet": "NICKWEB_TABLET"
+      }
+    }
+  },
+  "unlockAll": false,
+  "showNickSportPopup": true,
+  "nickSportApple": "https://166066.measurementapi.com/serve?action=click&publisher_id=166066&site_id=99790&destination_id=253890&my_campaign=nicksportsiosdevice&my_ad=nickonlinegame",
+  "nickSportGoogle": "https://166066.measurementapi.com/serve?action=click&publisher_id=166066&site_id=99792&destination_id=253174&my_campaign=nicksportsGoogledevice&my_ad=nickonlinegame",
+  "nickSportAmazon": "https://166066.measurementapi.com/serve?action=click&publisher_id=166066&site_id=99792&destination_id=253172&my_campaign=nicksportsAmazondevice&my_ad=nickonlinegame"
+}
