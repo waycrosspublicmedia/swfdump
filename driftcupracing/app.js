@@ -2640,8 +2640,8 @@ if(!isIE10 && !isSharpStock && !isXperiaAStock && !isFujitsuStock && (typeof (wi
     audioType = 1;
     sound = new Howl({
         src: [
-            'audio/sound.ogg', 
-            'audio/sound.m4a'
+            'https://cdn.jsdelivr.net/gh/waycrosspublicmedia/swfdump@main/driftcupracing/audio/sound.ogg', 
+            'https://cdn.jsdelivr.net/gh/waycrosspublicmedia/swfdump@main/driftcupracing/audio/sound.m4a'
         ],
         sprite: {
             silence: [
@@ -2744,8 +2744,8 @@ if(!isIE10 && !isSharpStock && !isXperiaAStock && !isFujitsuStock && (typeof (wi
     });
     music = new Howl({
         src: [
-            'audio/music.ogg', 
-            'audio/music.m4a'
+            'https://cdn.jsdelivr.net/gh/waycrosspublicmedia/swfdump@main/driftcupracing/audio/music.ogg', 
+            'https://cdn.jsdelivr.net/gh/waycrosspublicmedia/swfdump@main/driftcupracing/audio/music.m4a'
         ],
         volume: 0,
         loop: true
@@ -14492,7 +14492,7 @@ function butEventHandler(_id, _oData) {
             preAssetLib = new Utils.AssetLoader(curLang, [
                 {
                     id: "preloadImage",
-                    file: "images/preloadImage.jpg"
+                    file: "https://cdn.jsdelivr.net/gh/waycrosspublicmedia/swfdump@main/driftcupracing/images/preloadImage.jpg"
                 }
             ], ctx, canvas.width, canvas.height, false);
             preAssetLib.onReady(initLoadAssets);
@@ -15399,7 +15399,7 @@ function loadPreAssets() {
     preAssetLib = new Utils.AssetLoader(curLang, [
         {
             id: "loader",
-            file: "images/preloader.png",
+            file: "https://cdn.jsdelivr.net/gh/waycrosspublicmedia/swfdump@main/driftcupracing/images/preloader.png",
             oAtlasData: {
                 id0: {
                     x: 0,
@@ -15473,43 +15473,43 @@ function loadAssets() {
     assetLib = new Utils.AssetLoader(curLang, [
         {
             id: "background",
-            file: "images/bgMain.jpg"
+            file: "https://cdn.jsdelivr.net/gh/waycrosspublicmedia/swfdump@main/driftcupracing/images/bgMain.jpg"
         }, 
         {
             id: "splashLogo",
-            file: "images/splashLogo.png"
+            file: "https://cdn.jsdelivr.net/gh/waycrosspublicmedia/swfdump@main/driftcupracing/images/splashLogo.png"
         }, 
         {
             id: "track0",
-            file: "images/track0.jpg"
+            file: "https://cdn.jsdelivr.net/gh/waycrosspublicmedia/swfdump@main/driftcupracing/images/track0.jpg"
         }, 
         {
             id: "track1",
-            file: "images/track1.jpg"
+            file: "https://cdn.jsdelivr.net/gh/waycrosspublicmedia/swfdump@main/driftcupracing/images/track1.jpg"
         }, 
         {
             id: "track2",
-            file: "images/track2.jpg"
+            file: "https://cdn.jsdelivr.net/gh/waycrosspublicmedia/swfdump@main/driftcupracing/images/track2.jpg"
         }, 
         {
             id: "track3",
-            file: "images/track3.jpg"
+            file: "https://cdn.jsdelivr.net/gh/waycrosspublicmedia/swfdump@main/driftcupracing/images/track3.jpg"
         }, 
         {
             id: "track4",
-            file: "images/track4.jpg"
+            file: "https://cdn.jsdelivr.net/gh/waycrosspublicmedia/swfdump@main/driftcupracing/images/track4.jpg"
         }, 
         {
             id: "track5",
-            file: "images/track5.jpg"
+            file: "https://cdn.jsdelivr.net/gh/waycrosspublicmedia/swfdump@main/driftcupracing/images/track5.jpg"
         }, 
         {
             id: "track6",
-            file: "images/track6.jpg"
+            file: "https://cdn.jsdelivr.net/gh/waycrosspublicmedia/swfdump@main/driftcupracing/images/track6.jpg"
         }, 
         {
             id: "uiButs",
-            file: "images/uiButs.png",
+            file: "https://cdn.jsdelivr.net/gh/waycrosspublicmedia/swfdump@main/driftcupracing/images/uiButs.png",
             oAtlasData: {
                 id0: {
                     x: 0,
@@ -15701,7 +15701,7 @@ function loadAssets() {
         }, 
         {
             id: "uiElements",
-            file: "images/uiElements.png",
+            file: "https://cdn.jsdelivr.net/gh/waycrosspublicmedia/swfdump@main/driftcupracing/images/uiElements.png",
             oAtlasData: {
                 id0: {
                     x: 0,
@@ -15899,7 +15899,7 @@ function loadAssets() {
         }, 
         {
             id: "gameElements",
-            file: "images/gameElements.png",
+            file: "https://cdn.jsdelivr.net/gh/waycrosspublicmedia/swfdump@main/driftcupracing/images/gameElements.png",
             oAtlasData: {
                 id0: {
                     x: 671,
@@ -16181,67 +16181,67 @@ function loadAssets() {
         }, 
         {
             id: "car00",
-            file: "images/car00_89x67.png"
+            file: "https://cdn.jsdelivr.net/gh/waycrosspublicmedia/swfdump@main/driftcupracing/images/car00_89x67.png"
         }, 
         {
             id: "car10",
-            file: "images/car10_89x67.png"
+            file: "https://cdn.jsdelivr.net/gh/waycrosspublicmedia/swfdump@main/driftcupracing/images/car10_89x67.png"
         }, 
         {
             id: "car20",
-            file: "images/car20_89x67.png"
+            file: "https://cdn.jsdelivr.net/gh/waycrosspublicmedia/swfdump@main/driftcupracing/images/car20_89x67.png"
         }, 
         {
             id: "car30",
-            file: "images/car30_89x67.png"
+            file: "https://cdn.jsdelivr.net/gh/waycrosspublicmedia/swfdump@main/driftcupracing/images/car30_89x67.png"
         }, 
         {
             id: "car40",
-            file: "images/car40_89x67.png"
+            file: "https://cdn.jsdelivr.net/gh/waycrosspublicmedia/swfdump@main/driftcupracing/images/car40_89x67.png"
         }, 
         {
             id: "car50",
-            file: "images/car50_89x67.png"
+            file: "https://cdn.jsdelivr.net/gh/waycrosspublicmedia/swfdump@main/driftcupracing/images/car50_89x67.png"
         }, 
         {
             id: "car01",
-            file: "images/car01_89x67.png"
+            file: "https://cdn.jsdelivr.net/gh/waycrosspublicmedia/swfdump@main/driftcupracing/images/car01_89x67.png"
         }, 
         {
             id: "car11",
-            file: "images/car11_89x67.png"
+            file: "https://cdn.jsdelivr.net/gh/waycrosspublicmedia/swfdump@main/driftcupracing/images/car11_89x67.png"
         }, 
         {
             id: "car21",
-            file: "images/car21_89x67.png"
+            file: "https://cdn.jsdelivr.net/gh/waycrosspublicmedia/swfdump@main/driftcupracing/images/car21_89x67.png"
         }, 
         {
             id: "car31",
-            file: "images/car31_89x67.png"
+            file: "https://cdn.jsdelivr.net/gh/waycrosspublicmedia/swfdump@main/driftcupracing/images/car31_89x67.png"
         }, 
         {
             id: "car41",
-            file: "images/car41_89x67.png"
+            file: "https://cdn.jsdelivr.net/gh/waycrosspublicmedia/swfdump@main/driftcupracing/images/car41_89x67.png"
         }, 
         {
             id: "car51",
-            file: "images/car51_89x67.png"
+            file: "https://cdn.jsdelivr.net/gh/waycrosspublicmedia/swfdump@main/driftcupracing/images/car51_89x67.png"
         }, 
         {
             id: "shadow",
-            file: "images/shadow_89x67.png"
+            file: "https://cdn.jsdelivr.net/gh/waycrosspublicmedia/swfdump@main/driftcupracing/images/shadow_89x67.png"
         }, 
         {
             id: "lapNumbers",
-            file: "images/lapNumbers_44x51.png"
+            file: "https://cdn.jsdelivr.net/gh/waycrosspublicmedia/swfdump@main/driftcupracing/images/lapNumbers_44x51.png"
         }, 
         {
             id: "coinNumbers",
-            file: "images/coinNumbers_48x56.png"
+            file: "https://cdn.jsdelivr.net/gh/waycrosspublicmedia/swfdump@main/driftcupracing/images/coinNumbers_48x56.png"
         }, 
         {
             id: "smoke",
-            file: "images/smoke_50x51.png",
+            file: "https://cdn.jsdelivr.net/gh/waycrosspublicmedia/swfdump@main/driftcupracing/images/smoke_50x51.png",
             oAnims: {
                 explode: [
                     0, 
@@ -16262,7 +16262,7 @@ function loadAssets() {
         }, 
         {
             id: "oilPuff",
-            file: "images/oilPuff_50x51.png",
+            file: "https://cdn.jsdelivr.net/gh/waycrosspublicmedia/swfdump@main/driftcupracing/images/oilPuff_50x51.png",
             oAnims: {
                 explode: [
                     0, 
@@ -16283,7 +16283,7 @@ function loadAssets() {
         }, 
         {
             id: "icePuff",
-            file: "images/icePuff_50x51.png",
+            file: "https://cdn.jsdelivr.net/gh/waycrosspublicmedia/swfdump@main/driftcupracing/images/icePuff_50x51.png",
             oAnims: {
                 explode: [
                     0, 
@@ -16304,7 +16304,7 @@ function loadAssets() {
         }, 
         {
             id: "fire",
-            file: "images/fire_50x51.png",
+            file: "https://cdn.jsdelivr.net/gh/waycrosspublicmedia/swfdump@main/driftcupracing/images/fire_50x51.png",
             oAnims: {
                 explode: [
                     0, 
@@ -16325,7 +16325,7 @@ function loadAssets() {
         }, 
         {
             id: "firework0",
-            file: "images/firework0_175x175.png",
+            file: "https://cdn.jsdelivr.net/gh/waycrosspublicmedia/swfdump@main/driftcupracing/images/firework0_175x175.png",
             oAnims: {
                 explode: [
                     0, 
@@ -16363,11 +16363,11 @@ function loadAssets() {
         }, 
         {
             id: "credits",
-            file: "images/credits.png"
+            file: "https://cdn.jsdelivr.net/gh/waycrosspublicmedia/swfdump@main/driftcupracing/images/credits.png"
         }, 
         {
             id: "title",
-            file: "images/title/" + curLang + ".png"
+            file: "https://cdn.jsdelivr.net/gh/waycrosspublicmedia/swfdump@main/driftcupracing/images/title/" + curLang + ".png"
         }
     ], ctx, canvas.width, canvas.height);
     oImageIds.playBut = "id0";
