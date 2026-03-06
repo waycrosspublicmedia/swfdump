@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<patapon>
+
+	<!-- TEXT FORMATTING STYLES -->
+	<styles>
+		<style id="default"> 
+			<font>Segoe</font>
+		</style>
+		<style id="bold"> 
+			<font>Segoe</font>
+			<bold>true</bold>
+		</style>
+		<style id="light"> 
+			<font>Segoe Light</font>
+		</style>
+		<style id="alt"> 
+			<font>Die Nasty</font>
+		</style>
+	</styles>
+
+	<!-- TITLE SCREEN -->
+	<title>
+		<logoText style="alt">Beat Camp</logoText>
+		<welcomeText style="light">Welcome to your Patapon tribe</welcomeText>
+		<playFlag style="bold">Play</playFlag>
+		<instructionsFlag>Instructions</instructionsFlag>
+		<practiceFlag>Practice</practiceFlag>
+		<timeAttackFlag>Time Attack</timeAttackFlag>
+		<downloadsFlag>Downloads</downloadsFlag>
+	</title>
+	
+	<!-- INSTRUCTIONS SCREEN -->
+	<instructions>
+		<!-- CONTENT -->
+		<theAimHeader style="bold">The Aim</theAimHeader>
+		<theAimContent style="light">Train and move your Patapon tribe through each level. Destroy obstacles, accumulate tribesmen and unlock rewards for yourself along the way. Hurry up, a Patapon festival celebration awaits!</theAimContent>
+		
+		<whatToDoHeader1 style="bold">Practice Mode</whatToDoHeader1>
+		<whatToDoContent1>Build up your tribe's confidence and practice your marching skills before heading off to Time Attack mode. Just hit the correct sequence of keys to match the scrolling drum icons at the top of the screen. Be sure to keep the beat!</whatToDoContent1>
+		<whatToDoHeader2 style="bold">Time Attack Mode</whatToDoHeader2>
+		<whatToDoContent2>After you have honed your skills in Practice Mode, give this competitive mode a go to unlock some treats. More challenging skills (Marching, Attacking, Trumpeting) will truly test the might of your tribe.</whatToDoContent2>
+		
+		<keysHeader style="bold">Keys</keysHeader>
+		<keysContent>Match the keys with the symbols shown in the scrolling drum icons at the top of the screen.</keysContent>
+		
+		<!-- NAVIGATION -->
+		<navButton>Home</navButton>
+		<theAimBtn style="light">Aim of the Game</theAimBtn>
+		<whatBtn style="light">What to do</whatBtn>
+		<keysBtn style="light">Keys</keysBtn>
+	</instructions>
+	
+	<!-- DOWNLOADS SCREEN -->
+	<downloads>
+		<!-- nothing unlocked text is the same copy as the 'aim of the game' -->
+		<nothingUnlocked>Train and move your Patapon tribe through each level. Destroy obstacles, accumulate tribesmen and unlock rewards for yourself along the way. Hurry up, a Patapon festival celebration awaits!</nothingUnlocked>
+		<downloadsUnlocked>Your tribe must like you. They have granted you access to some of their treasure.</downloadsUnlocked>
+		<navButton>Home</navButton>
+		<box1Title>Wallpaper A</box1Title>
+		<box2Title>Wallpaper B</box2Title>
+		<box3Title>Wallpaper C</box3Title>
+	</downloads>
+	
+	<!-- LEVEL INSTRUCTIONS -->
+	<levels>
+		<level>
+			<part1>Your Patapon tribesmen react differently to various drum combinations. Pata Pata Pata Pon will cause your Patapons to march to the beat.</part1>
+			<part2>The Chaka Chaka Pata Pon combination will draw their shields and protect them from dangerous whirlwinds.</part2>
+			<part3>Get your tribe through hostile territory!</part3>
+		</level>
+		<level>
+			<part1>A dilapidated castle needs to be destroyed.  March and gallop your tribe to the demolition site with the drum sequence Pata Pata Pata Pon.</part1>
+			<part2>Bring it all down by attacking the castle with the combination Pon Pon Pata Pon.</part2>
+			<part3><!-- LEAVE EMPTY --></part3>
+		</level>
+		<level>
+			<part1>Your tribe needs a little more practice with their musical instruments before they can join in with all the merriment at the Patapon festival celebration.</part1>
+			<part2>Listen closely and repeat the notes of the band leader.</part2>
+			<part3><!-- LEAVE EMPTY --></part3>
+		</level>
+	</levels>
+	
+	<!-- END OF LEVEL DOWNLOADS SCREEN -->
+	<eol>
+		<missionComplete>Mission Complete</missionComplete><!-- This used for non english versrions to replace the graphic -->
+		<navButton>Next</navButton>
+	</eol>
+	
+	<!-- MISSION FAILED -->
+	<gameOver>
+		<missionFailed>Mission Failed</missionFailed><!-- This used for non english versrions to replace the graphic -->
+		<loserText>You need to move quicker than that if you want to make it to the festival on time!</loserText>
+		<retryBtn style="bold">Retry</retryBtn>
+		<homeButton style="bold">Back to Title Screen</homeButton>
+	</gameOver>
+	
+	<!-- CONGRATULATIONS -->
+	<gameComplete>
+		<wellDone>Congratulations! You made it! The Patapons agree: you will make a fine tribal leader.</wellDone>
+	</gameComplete>	
+	
+</patapon>
